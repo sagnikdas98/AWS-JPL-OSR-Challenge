@@ -7,9 +7,9 @@
 	<arg name="headless" default="false"/>
 	<arg name="debug" default="false"/>
     <arg name="world" default="$(find training_grounds)/worlds/basic.world"/>
-    <param name="MODEL_S3_BUCKET" value="$(env MODEL_S3_BUCKET)" />
-    <param name="MODEL_S3_PREFIX" value="$(env MODEL_S3_PREFIX)" />
-    <param name="ROS_AWS_REGION" value="$(env ROS_AWS_REGION)" />
+    <param name="MODEL_S3_BUCKET" value="burnsca-training" />
+    <param name="MODEL_S3_PREFIX" value="training-grounds-001" />
+    <param name="ROS_AWS_REGION" value="us-east-1" />
     <param name="JOB_TYPE" value="TRAINING" />
 
 

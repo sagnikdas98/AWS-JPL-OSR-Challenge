@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: markov
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Chris
+License: UNKNOWN
+Description: RL Agent for NASA-Rover-Challenge
+Platform: UNKNOWN
+Requires-Python: >=3.6
