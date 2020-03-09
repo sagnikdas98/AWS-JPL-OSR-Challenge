@@ -1,0 +1,13 @@
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/lib/pkgconfig/training_grounds.pc
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/cmake/training_groundsConfig.cmake
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/cmake/training_groundsConfig-version.cmake
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/package.xml
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/launch/training_full_sim.launch
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/launch/training_gear.launch
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/launch/eval.launch
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/launch/rover_training_env.launch
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/launch/training_env_only.launch
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/models/monolith/monolith.sdf
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/models/monolith/model.config
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/worlds/basic.world
+/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/lib/training_grounds/run_local_rl_agent.sh

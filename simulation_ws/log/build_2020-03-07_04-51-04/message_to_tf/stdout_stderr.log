@@ -1,0 +1,10 @@
+[1.771s] [100%] Built target message_to_tf
+[2.869s] Built target tests
+[4.034s] [100%] Built target message_to_tf
+[4.126s] [36mInstall the project...[0m
+[4.175s] -- Install configuration: ""
+[4.177s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib/pkgconfig/message_to_tf.pc
+[4.179s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/cmake/message_to_tfConfig.cmake
+[4.187s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/cmake/message_to_tfConfig-version.cmake
+[4.189s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/package.xml
+[4.190s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib/message_to_tf/message_to_tf

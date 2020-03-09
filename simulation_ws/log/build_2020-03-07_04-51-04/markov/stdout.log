@@ -1,0 +1,18 @@
+[2.482s] running egg_info
+[2.483s] writing /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/PKG-INFO
+[2.484s] writing dependency_links to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/dependency_links.txt
+[2.484s] writing entry points to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/entry_points.txt
+[2.484s] writing requirements to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/requires.txt
+[2.484s] writing top-level names to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/top_level.txt
+[2.578s] reading manifest file '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/SOURCES.txt'
+[2.584s] writing manifest file '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/SOURCES.txt'
+[2.585s] running build
+[2.585s] running build_py
+[2.588s] running install
+[2.590s] running install_lib
+[2.602s] running install_egg_info
+[2.603s] removing '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages/markov-0.1.1-py3.6.egg-info' (and everything under it)
+[2.605s] Copying /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages/markov-0.1.1-py3.6.egg-info
+[2.607s] running install_scripts
+[2.670s] Installing run_local_rl_agent script to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/bin
+[2.674s] writing list of installed files to '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/install.log'

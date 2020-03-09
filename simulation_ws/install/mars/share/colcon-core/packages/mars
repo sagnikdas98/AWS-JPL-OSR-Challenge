@@ -1,0 +1,1 @@
+gazebo_plugins:gazebo_ros:gazebo_ros_control:hector_gazebo_worlds:joint_state_controller:ros_control:ros_controllers:roscpp:rospy:rover_description:std_msgs:teleop_twist_keyboard:xacro

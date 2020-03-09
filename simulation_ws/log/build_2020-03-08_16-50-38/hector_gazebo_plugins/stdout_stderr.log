@@ -1,0 +1,125 @@
+[0.776s] [  7%] Built target hector_gazebo_plugins_gencfg
+[0.776s] [ 14%] Built target hector_servo_plugin
+[0.777s] [ 22%] Built target diffdrive_plugin_6w
+[0.777s] [ 29%] Built target diffdrive_plugin_multi_wheel
+[0.777s] [ 29%] Built target geometry_msgs_generate_messages_cpp
+[0.777s] [ 37%] Built target gazebo_ros_force_based_move
+[0.777s] [ 37%] Built target geometry_msgs_generate_messages_py
+[0.778s] [ 37%] Built target geometry_msgs_generate_messages_nodejs
+[0.778s] [ 37%] Built target geometry_msgs_generate_messages_eus
+[0.778s] [ 37%] Built target _hector_gazebo_plugins_generate_messages_check_deps_SetBias
+[0.778s] [ 37%] Built target geometry_msgs_generate_messages_lisp
+[0.778s] [ 44%] Built target hector_gazebo_reset_plugin
+[0.779s] [ 51%] Built target hector_gazebo_ros_magnetic
+[0.779s] [ 59%] Built target hector_gazebo_ros_sonar
+[0.780s] [ 66%] Built target hector_gazebo_ros_gps
+[0.780s] [ 70%] Built target hector_gazebo_plugins_generate_messages_nodejs
+[0.780s] [ 74%] Built target hector_gazebo_plugins_generate_messages_cpp
+[0.824s] [ 81%] Built target hector_gazebo_plugins_generate_messages_py
+[0.845s] [ 85%] Built target hector_gazebo_plugins_generate_messages_lisp
+[0.874s] [ 92%] Built target hector_gazebo_plugins_generate_messages_eus
+[0.927s] [100%] Built target hector_gazebo_ros_imu
+[0.953s] [100%] Built target hector_gazebo_plugins_generate_messages
+[1.490s] Built target tests
+[2.122s] [  7%] Built target hector_gazebo_plugins_gencfg
+[2.173s] [ 14%] Built target diffdrive_plugin_multi_wheel
+[2.197s] [ 22%] Built target diffdrive_plugin_6w
+[2.211s] [ 29%] Built target hector_servo_plugin
+[2.248s] [ 29%] Built target geometry_msgs_generate_messages_cpp
+[2.272s] [ 29%] Built target geometry_msgs_generate_messages_nodejs
+[2.302s] [ 29%] Built target _hector_gazebo_plugins_generate_messages_check_deps_SetBias
+[2.339s] [ 29%] Built target geometry_msgs_generate_messages_eus
+[2.351s] [ 29%] Built target geometry_msgs_generate_messages_py
+[2.363s] [ 29%] Built target geometry_msgs_generate_messages_lisp
+[2.368s] [ 37%] Built target gazebo_ros_force_based_move
+[2.442s] [ 44%] Built target hector_gazebo_reset_plugin
+[2.454s] [ 51%] Built target hector_gazebo_ros_sonar
+[2.511s] [ 59%] Built target hector_gazebo_ros_gps
+[2.519s] [ 62%] Built target hector_gazebo_plugins_generate_messages_nodejs
+[2.530s] [ 66%] Built target hector_gazebo_plugins_generate_messages_cpp
+[2.537s] [ 74%] Built target hector_gazebo_ros_magnetic
+[2.576s] [ 81%] Built target hector_gazebo_plugins_generate_messages_eus
+[2.605s] [ 88%] Built target hector_gazebo_plugins_generate_messages_lisp
+[2.613s] [ 92%] Built target hector_gazebo_plugins_generate_messages_py
+[2.664s] [ 92%] Built target hector_gazebo_plugins_generate_messages
+[2.665s] [100%] Built target hector_gazebo_ros_imu
+[2.724s] [36mInstall the project...[0m
+[2.741s] -- Install configuration: ""
+[2.742s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetBias.srv
+[2.742s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins-msg-paths.cmake
+[2.742s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins
+[2.743s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/SetBias.h
+[2.743s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/SetBiasResponse.h
+[2.743s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/SetBiasRequest.h
+[2.747s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/SensorModelConfig.h
+[2.747s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/GNSSConfig.h
+[2.747s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins
+[2.747s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins/manifest.l
+[2.747s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins/srv
+[2.748s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l
+[2.748s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins
+[2.748s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv
+[2.749s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv/SetBias.lisp
+[2.749s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv/_package.lisp
+[2.749s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv/hector_gazebo_plugins-srv.asd
+[2.749s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv/_package_SetBias.lisp
+[2.750s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/gennodejs/ros/hector_gazebo_plugins
+[2.750s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/gennodejs/ros/hector_gazebo_plugins/srv
+[2.750s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/gennodejs/ros/hector_gazebo_plugins/srv/SetBias.js
+[2.750s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/gennodejs/ros/hector_gazebo_plugins/srv/_index.js
+[2.751s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/gennodejs/ros/hector_gazebo_plugins/_index.js
+[2.773s] Listing /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins/devel/lib/python2.7/dist-packages/hector_gazebo_plugins ...
+[2.773s] Listing /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg ...
+[2.773s] Listing /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/srv ...
+[2.782s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins
+[2.783s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/__init__.pyc
+[2.783s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg
+[2.783s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/SensorModelConfig.pyc
+[2.783s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/__init__.pyc
+[2.783s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/GNSSConfig.py
+[2.784s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/SensorModelConfig.py
+[2.784s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/__init__.py
+[2.784s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/GNSSConfig.pyc
+[2.784s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/srv
+[2.784s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.py
+[2.785s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.pyc
+[2.785s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/_SetBias.pyc
+[2.785s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/srv/__init__.py
+[2.785s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/__init__.py
+[2.785s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/SensorModelConfig.h
+[2.785s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/GNSSConfig.h
+[2.786s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/__init__.py
+[2.813s] Listing /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg ...
+[2.816s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg
+[2.817s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/SensorModelConfig.pyc
+[2.818s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/__init__.pyc
+[2.818s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/GNSSConfig.py
+[2.819s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/SensorModelConfig.py
+[2.819s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/__init__.py
+[2.819s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/GNSSConfig.pyc
+[2.820s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/pkgconfig/hector_gazebo_plugins.pc
+[2.820s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins-msg-extras.cmake
+[2.820s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_pluginsConfig.cmake
+[2.821s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_pluginsConfig-version.cmake
+[2.830s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.xml
+[2.831s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins
+[2.831s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/servo_plugin.h
+[2.831s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/diffdrive_plugin_6w.h
+[2.831s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_sonar.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_magnetic.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_gps.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/update_timer.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/reset_plugin.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_imu.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/sensor_model.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/diffdrive_plugin_multi_wheel.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_force_based_move.h
+[2.832s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.so
+[2.833s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libdiffdrive_plugin_multi_wheel.so
+[2.833s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libgazebo_ros_force_based_move.so
+[2.833s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libhector_gazebo_reset_plugin.so
+[2.833s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_imu.so
+[2.833s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_magnetic.so
+[2.833s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_gps.so
+[2.833s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_sonar.so
+[2.833s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/libhector_servo_plugin.so

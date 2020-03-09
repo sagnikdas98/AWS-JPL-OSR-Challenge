@@ -1,0 +1,16 @@
+[0.752s] Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf -- -j4 -l4
+[0.993s] [100%] Built target message_to_tf
+[1.022s] Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf -- -j4 -l4
+[1.210s] Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf --target tests -- -j4 -l4
+[1.391s] Built target tests
+[1.539s] Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf --target tests -- -j4 -l4
+[1.788s] Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf --target install -- -j4 -l4
+[1.964s] [100%] Built target message_to_tf
+[2.013s] [36mInstall the project...[0m
+[2.044s] -- Install configuration: ""
+[2.045s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib/pkgconfig/message_to_tf.pc
+[2.045s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/cmake/message_to_tfConfig.cmake
+[2.046s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/cmake/message_to_tfConfig-version.cmake
+[2.046s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/package.xml
+[2.048s] -- Up-to-date: /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib/message_to_tf/message_to_tf
+[2.059s] Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf --target install -- -j4 -l4

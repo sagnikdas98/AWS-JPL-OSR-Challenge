@@ -1,0 +1,23 @@
+[0.738s] Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rl-agent': PYTHONPATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov build --build-base /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/build install --prefix /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov --record /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/install.log --single-version-externally-managed
+[1.513s] running egg_info
+[1.516s] writing /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/PKG-INFO
+[1.516s] writing dependency_links to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/dependency_links.txt
+[1.516s] writing entry points to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/entry_points.txt
+[1.517s] writing requirements to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/requires.txt
+[1.517s] writing top-level names to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/top_level.txt
+[1.638s] reading manifest file '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/SOURCES.txt'
+[1.643s] writing manifest file '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info/SOURCES.txt'
+[1.643s] running build
+[1.644s] running build_py
+[1.644s] copying markov/rover_agent.py -> /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/build/lib/markov
+[1.649s] running install
+[1.650s] running install_lib
+[1.657s] copying /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/build/lib/markov/rover_agent.py -> /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages/markov
+[1.657s] byte-compiling /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages/markov/rover_agent.py to rover_agent.cpython-36.pyc
+[1.658s] running install_egg_info
+[1.664s] removing '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages/markov-0.1.1-py3.6.egg-info' (and everything under it)
+[1.666s] Copying /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/markov.egg-info to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages/markov-0.1.1-py3.6.egg-info
+[1.669s] running install_scripts
+[1.711s] Installing run_local_rl_agent script to /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/bin
+[1.711s] writing list of installed files to '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/install.log'
+[1.764s] Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rl-agent' returned '0': PYTHONPATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov build --build-base /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/build install --prefix /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov --record /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/install.log --single-version-externally-managed

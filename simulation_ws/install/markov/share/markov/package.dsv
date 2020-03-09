@@ -1,0 +1,6 @@
+source;share/markov/hook/path.ps1
+source;share/markov/hook/path.dsv
+source;share/markov/hook/path.sh
+source;share/markov/hook/pythonpath.ps1
+source;share/markov/hook/pythonpath.dsv
+source;share/markov/hook/pythonpath.sh

@@ -1,0 +1,8 @@
+prefix=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars
+
+Name: mars
+Description: Description of mars
+Version: 0.0.9
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_ros

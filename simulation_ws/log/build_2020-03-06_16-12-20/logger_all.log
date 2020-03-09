@@ -1,0 +1,488 @@
+[0.556s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.556s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbb5be7cd30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbb5be7cd30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbb5be88080>)
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.653s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extension 'ignore_ament_install'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extensions ['colcon_pkg']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extension 'colcon_pkg'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extensions ['colcon_meta']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extension 'colcon_meta'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extensions ['ros']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars) by extension 'ros'
+[0.697s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mars' with type 'ros.catkin' and name 'mars'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extensions ['colcon_pkg']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extensions ['colcon_meta']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extension 'ros'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extensions ['cmake', 'python']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extension 'cmake'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extension 'python'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extensions ['python_setup_py']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl-agent) by extension 'python_setup_py'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rl-agent' with type 'python' and name 'markov'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['colcon_pkg']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'colcon_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'ros'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['cmake', 'python']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'cmake'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'python'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['python_setup_py']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'python_setup_py'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/hector_gazebo_plugins) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover/hector_gazebo_plugins' with type 'ros.catkin' and name 'hector_gazebo_plugins'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/message_to_tf) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover/message_to_tf' with type 'ros.catkin' and name 'message_to_tf'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extensions ['colcon_meta']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover/rover_description) by extension 'ros'
+[0.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover/rover_description' with type 'ros.catkin' and name 'rover_description'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/training-grounds) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/training-grounds' with type 'ros.catkin' and name 'training_grounds'
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.964s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:training_grounds depends on rover_description which has version 1.0.0: constraints {}
+[0.965s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:mars depends on rover_description which has version 1.0.0: constraints {}
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'hector_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'hector_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins', 'merge_install': False, 'path': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/hector_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'markov' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.973s] DEBUG:colcon.colcon_core.verb:Building package 'markov' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov', 'merge_install': False, 'path': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rl-agent', 'symlink_install': False, 'test_result_base': None}
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'cmake_target' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'message_to_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.976s] DEBUG:colcon.colcon_core.verb:Building package 'message_to_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf', 'merge_install': False, 'path': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/message_to_tf', 'symlink_install': False, 'test_result_base': None}
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'cmake_target' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'rover_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.979s] DEBUG:colcon.colcon_core.verb:Building package 'rover_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description', 'merge_install': False, 'path': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/rover_description', 'symlink_install': False, 'test_result_base': None}
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'cmake_target' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'cmake_clean_cache' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'cmake_clean_first' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'cmake_force_configure' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'ament_cmake_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'catkin_cmake_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'mars' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.982s] DEBUG:colcon.colcon_core.verb:Building package 'mars' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars', 'merge_install': False, 'path': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/mars', 'symlink_install': False, 'test_result_base': None}
+[0.984s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'cmake_args' from command line to 'None'
+[0.984s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'cmake_target' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'cmake_clean_first' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'cmake_force_configure' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'ament_cmake_args' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'training_grounds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.985s] DEBUG:colcon.colcon_core.verb:Building package 'training_grounds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds', 'merge_install': False, 'path': '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/training-grounds', 'symlink_install': False, 'test_result_base': None}
+[0.985s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.988s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/rover_description' with build type 'catkin'
+[0.988s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/rover_description'
+[1.005s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.025s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.029s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/hector_gazebo_plugins' with build type 'catkin'
+[1.029s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/hector_gazebo_plugins'
+[1.031s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.035s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.038s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rl-agent'
+[1.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.045s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.049s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/message_to_tf' with build type 'catkin'
+[1.050s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/message_to_tf'
+[1.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.055s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description': /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/rover_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins': /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/hector_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins
+[1.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rl-agent': PYTHONPATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov build --build-base /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/build install --prefix /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov --record /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/install.log --single-version-externally-managed
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf': /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/message_to_tf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rl-agent' returned '0': PYTHONPATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov build --build-base /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/build install --prefix /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov --record /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/markov/install.log --single-version-externally-managed
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov' for CMake module files
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov' for CMake config files
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib'
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/bin'
+[2.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('markov', 'path')
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/hook/path.ps1'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/hook/path.dsv'
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/hook/path.sh'
+[2.207s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/pkgconfig/markov.pc'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/lib/python3.6/site-packages'
+[2.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('markov', 'pythonpath')
+[2.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/hook/pythonpath.ps1'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/hook/pythonpath.dsv'
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/hook/pythonpath.sh'
+[2.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(markov)
+[2.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/package.ps1'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/package.dsv'
+[2.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/package.sh'
+[2.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/package.bash'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/markov/package.zsh'
+[2.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/markov/share/colcon-core/packages/markov)
+[4.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description' returned '0': /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/rover_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description
+[4.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description -- -j4 -l4
+[4.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description -- -j4 -l4
+[4.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description --target tests -- -j4 -l4
+[4.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description --target tests -- -j4 -l4
+[4.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description --target install -- -j4 -l4
+[5.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf' returned '0': /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/message_to_tf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf
+[5.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf -- -j4 -l4
+[5.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_description', 'ros_package_path')
+[5.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/ros_package_path.ps1'
+[5.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/ros_package_path.dsv'
+[5.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/ros_package_path.sh'
+[5.386s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/python2.7/dist-packages'
+[5.386s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/python2.7/site-packages'
+[5.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_description', 'pkg_config_path')
+[5.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config_path.ps1'
+[5.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/rover_description --target install -- -j4 -l4
+[5.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config_path.dsv'
+[5.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config_path.sh'
+[5.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_description', 'pkg_config_path_multiarch')
+[5.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config_path_multiarch.ps1'
+[5.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config_path_multiarch.dsv'
+[5.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config_path_multiarch.sh'
+[5.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_description)
+[5.401s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description' for CMake module files
+[5.401s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description' for CMake config files
+[5.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_description', 'cmake_prefix_path')
+[5.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/cmake_prefix_path.ps1'
+[5.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/cmake_prefix_path.dsv'
+[5.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/cmake_prefix_path.sh'
+[5.406s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib'
+[5.406s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/bin'
+[5.406s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig/rover_description.pc'
+[5.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_description', 'pkg_config')
+[5.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config.ps1'
+[5.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config.dsv'
+[5.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/hook/pkg_config.sh'
+[5.408s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/python3.6/site-packages'
+[5.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/package.ps1'
+[5.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/package.dsv'
+[5.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/package.sh'
+[5.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/package.bash'
+[5.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/rover_description/package.zsh'
+[5.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share/colcon-core/packages/rover_description)
+[5.415s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/mars' with build type 'catkin'
+[5.415s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/mars'
+[5.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.420s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[5.425s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/training-grounds' with build type 'catkin'
+[5.425s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/training-grounds'
+[5.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.428s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[5.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/mars -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars
+[5.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/training-grounds -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds
+[8.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins' returned '0': /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/rover/hector_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins
+[8.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins -- -j4 -l4
+[9.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds' returned '0': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/training-grounds -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds
+[9.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds -- -j4 -l4
+[9.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds' returned '0': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds -- -j4 -l4
+[9.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars' returned '0': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/src/mars -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars
+[9.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars -- -j4 -l4
+[9.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars' returned '0': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars -- -j4 -l4
+[10.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds --target tests -- -j4 -l4
+[11.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars --target tests -- -j4 -l4
+[11.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds' returned '0': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds --target tests -- -j4 -l4
+[11.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars' returned '0': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars --target tests -- -j4 -l4
+[12.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds --target install -- -j4 -l4
+[12.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_grounds', 'ros_package_path')
+[12.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/ros_package_path.ps1'
+[12.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/ros_package_path.dsv'
+[12.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/ros_package_path.sh'
+[12.662s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/lib/python2.7/dist-packages'
+[12.662s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/lib/python2.7/site-packages'
+[12.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_grounds', 'pkg_config_path')
+[12.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config_path.ps1'
+[12.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config_path.dsv'
+[12.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config_path.sh'
+[12.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_grounds', 'pkg_config_path_multiarch')
+[12.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config_path_multiarch.ps1'
+[12.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config_path_multiarch.dsv'
+[12.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds' returned '0': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/training_grounds --target install -- -j4 -l4
+[12.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config_path_multiarch.sh'
+[12.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(training_grounds)
+[12.671s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds' for CMake module files
+[12.672s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds' for CMake config files
+[12.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_grounds', 'cmake_prefix_path')
+[12.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/cmake_prefix_path.ps1'
+[12.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/cmake_prefix_path.dsv'
+[12.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/cmake_prefix_path.sh'
+[12.675s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/lib'
+[12.687s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/bin'
+[12.688s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/lib/pkgconfig/training_grounds.pc'
+[12.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_grounds', 'pkg_config')
+[12.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config.ps1'
+[12.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config.dsv'
+[12.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/hook/pkg_config.sh'
+[12.690s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/lib/python3.6/site-packages'
+[12.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/package.ps1'
+[12.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/package.dsv'
+[12.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/package.sh'
+[12.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/package.bash'
+[12.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/training_grounds/package.zsh'
+[12.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/training_grounds/share/colcon-core/packages/training_grounds)
+[13.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars --target install -- -j4 -l4
+[13.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars', 'ros_package_path')
+[13.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/ros_package_path.ps1'
+[13.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/ros_package_path.dsv'
+[13.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/ros_package_path.sh'
+[13.508s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/lib/python2.7/dist-packages'
+[13.508s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/lib/python2.7/site-packages'
+[13.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars', 'pkg_config_path')
+[13.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config_path.ps1'
+[13.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config_path.dsv'
+[13.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config_path.sh'
+[13.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars' returned '0': CMAKE_PREFIX_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/x86_64-linux-gnu/pkgconfig:/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/rover_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/mars --target install -- -j4 -l4
+[13.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars', 'pkg_config_path_multiarch')
+[13.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config_path_multiarch.ps1'
+[13.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config_path_multiarch.dsv'
+[13.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config_path_multiarch.sh'
+[13.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mars)
+[13.519s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars' for CMake module files
+[13.520s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars' for CMake config files
+[13.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars', 'cmake_prefix_path')
+[13.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/cmake_prefix_path.ps1'
+[13.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/cmake_prefix_path.dsv'
+[13.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/cmake_prefix_path.sh'
+[13.560s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/lib'
+[13.560s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/bin'
+[13.560s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/lib/pkgconfig/mars.pc'
+[13.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars', 'pkg_config')
+[13.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config.ps1'
+[13.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config.dsv'
+[13.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/hook/pkg_config.sh'
+[13.564s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/lib/python3.6/site-packages'
+[13.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/package.ps1'
+[13.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/package.dsv'
+[13.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/package.sh'
+[13.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/package.bash'
+[13.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/mars/package.zsh'
+[13.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/mars/share/colcon-core/packages/mars)
+[14.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf -- -j4 -l4
+[14.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf --target tests -- -j4 -l4
+[15.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf --target tests -- -j4 -l4
+[16.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf --target install -- -j4 -l4
+[16.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_to_tf', 'ros_package_path')
+[16.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/ros_package_path.ps1'
+[16.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/ros_package_path.dsv'
+[16.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/ros_package_path.sh'
+[16.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/message_to_tf --target install -- -j4 -l4
+[16.760s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib/python2.7/dist-packages'
+[16.760s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib/python2.7/site-packages'
+[16.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_to_tf', 'pkg_config_path')
+[16.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config_path.ps1'
+[16.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config_path.dsv'
+[16.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config_path.sh'
+[16.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_to_tf', 'pkg_config_path_multiarch')
+[16.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config_path_multiarch.ps1'
+[16.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config_path_multiarch.dsv'
+[16.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config_path_multiarch.sh'
+[16.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message_to_tf)
+[16.768s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf' for CMake module files
+[16.769s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf' for CMake config files
+[16.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_to_tf', 'cmake_prefix_path')
+[16.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/cmake_prefix_path.ps1'
+[16.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/cmake_prefix_path.dsv'
+[16.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/cmake_prefix_path.sh'
+[16.778s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib'
+[16.778s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/bin'
+[16.778s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib/pkgconfig/message_to_tf.pc'
+[16.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_to_tf', 'pkg_config')
+[16.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config.ps1'
+[16.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config.dsv'
+[16.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/hook/pkg_config.sh'
+[16.781s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/lib/python3.6/site-packages'
+[16.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/package.ps1'
+[16.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/package.dsv'
+[16.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/package.sh'
+[16.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/package.bash'
+[16.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/message_to_tf/package.zsh'
+[16.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/message_to_tf/share/colcon-core/packages/message_to_tf)
+[44.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins -- -j4 -l4
+[44.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins --target tests -- -j4 -l4
+[44.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins --target tests -- -j4 -l4
+[44.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins --target install -- -j4 -l4
+[45.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('hector_gazebo_plugins', 'ros_package_path')
+[45.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/ros_package_path.ps1'
+[45.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/ros_package_path.dsv'
+[45.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/ros_package_path.sh'
+[45.418s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/dist-packages'
+[45.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('hector_gazebo_plugins', 'python2path')
+[45.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/python2path.ps1'
+[45.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/python2path.dsv'
+[45.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/python2path.sh'
+[45.420s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python2.7/site-packages'
+[45.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('hector_gazebo_plugins', 'pkg_config_path')
+[45.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config_path.ps1'
+[45.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config_path.dsv'
+[45.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config_path.sh'
+[45.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('hector_gazebo_plugins', 'pkg_config_path_multiarch')
+[45.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins' returned '0': /usr/bin/cmake --build /home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/build/hector_gazebo_plugins --target install -- -j4 -l4
+[45.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config_path_multiarch.ps1'
+[45.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config_path_multiarch.dsv'
+[45.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config_path_multiarch.sh'
+[45.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hector_gazebo_plugins)
+[45.427s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins' for CMake module files
+[45.428s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins' for CMake config files
+[45.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('hector_gazebo_plugins', 'cmake_prefix_path')
+[45.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[45.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[45.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/cmake_prefix_path.sh'
+[45.431s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib'
+[45.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('hector_gazebo_plugins', 'ld_library_path_lib')
+[45.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[45.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[45.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/ld_library_path_lib.sh'
+[45.433s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/bin'
+[45.433s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/pkgconfig/hector_gazebo_plugins.pc'
+[45.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('hector_gazebo_plugins', 'pkg_config')
+[45.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config.ps1'
+[45.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config.dsv'
+[45.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/hook/pkg_config.sh'
+[45.436s] Level 1:colcon.colcon_core.environment:checking '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/lib/python3.6/site-packages'
+[45.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.ps1'
+[45.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.dsv'
+[45.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.sh'
+[45.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.bash'
+[45.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.zsh'
+[45.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/hector_gazebo_plugins/share/colcon-core/packages/hector_gazebo_plugins)
+[45.448s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.450s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.466s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.466s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.466s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.470s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.471s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/local_setup.ps1'
+[45.475s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/_local_setup_util_ps1.py'
+[45.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/setup.ps1'
+[45.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/local_setup.sh'
+[45.489s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/_local_setup_util_sh.py'
+[45.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/setup.sh'
+[45.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/local_setup.bash'
+[45.494s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/setup.bash'
+[45.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/local_setup.zsh'
+[45.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zero/Documents/challenge/AWS-JPL-OSR-Challenge/simulation_ws/install/setup.zsh'
